@@ -9,6 +9,12 @@
     <title>Title</title>
 </head>
 <body>
-    {{ $slot }}
+<div class="h-8 bg-light-grey">header</div>
+<div class="flex items-center justify-center max-w-[100vw] py-12 px-4 tablet:px-12">
+    <div class="max-w-[74rem] w-full">
+        {{ $slot }}
+    </div>
+</div>
+<div class="h-8 bg-light-grey">footer</div>
 </body>
 </html>
