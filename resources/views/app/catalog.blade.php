@@ -16,9 +16,11 @@
                     <div class="font-primary font-semibold text-base">
                         ₴{{ $item->price }}
                     </div>
-                    <div class="ml-1 font-primary font-semibold text-sm text-light-grey line-through">
-                        ₴{{ $item->price_old }}
-                    </div>
+                    @isset($item->price_old)
+                        <div class="ml-1 font-primary font-semibold text-sm text-light-grey line-through">
+                            ₴{{ $item->price_old }}
+                        </div>
+                    @endisset
                 </div>
             </div>
         @endforeach
