@@ -16,11 +16,16 @@ module.exports = {
                 base: ['14px', '22px']
             },
             colors: {
+                'lightest-grey': '#f0f0f0',
                 'light-grey': '#8c8c8c',
+                'blue': '#1677ff',
             },
             screens: {
                 'tablet': '680px'
             },
+            borderWidth: {
+                '1': '1px',
+            }
         },
     },
     plugins: [],
