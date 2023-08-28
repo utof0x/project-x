@@ -42,54 +42,54 @@
             <div class="flex mt-3 border-t-1 border-solid border-lightest-grey">
                 <ul class="max-w-[9.5rem] lg:max-w-[14rem] xl:max-w-[17.375rem] w-screen mr-6">
                     <li class="mt-3 font-primary text-base text-light-grey">
-                        <a class="hover:underline" href="/catalog/?gender=male&category=test">
+                        <a class="hover:underline" href="/catalog/?type=clothes&category=originals">
                             Originals
                         </a>
                     </li>
                     <li class="mt-3 font-primary text-base text-light-grey">
-                        <a class="hover:underline" href="/catalog/?gender=male&category=test">
+                        <a class="hover:underline" href="/catalog/?category=tracksuits&clothes=clothes">
                             Спортивні костюми
                         </a>
                     </li>
                     <li class="mt-3 font-primary text-base text-light-grey">
-                        <a class="hover:underline" href="/catalog/?gender=male&category=test">
+                        <a class="hover:underline" href="/catalog/?type=clothes&category=pants">
                             Штани
                         </a>
                     </li>
                     <li class="mt-3 font-primary text-base text-light-grey">
-                        <a class="hover:underline" href="/catalog/?gender=male&category=test">
+                        <a class="hover:underline" href="/catalog/?type=clothes&category=sweatshirts_and_hoodies">
                             Світшоти та худі
                         </a>
                     </li>
                     <li class="mt-3 font-primary text-base text-light-grey">
-                        <a class="hover:underline" href="/catalog/?gender=male&category=test">
+                        <a class="hover:underline" href="/catalog/?type=clothes&category=tshirts">
                             Футболки
                         </a>
                     </li>
                 </ul>
                 <ul class="max-w-[9.5rem] lg:max-w-[14rem] xl:max-w-[17.375rem] w-screen">
                     <li class="mt-3 font-primary text-base text-light-grey">
-                        <a class="hover:underline" href="/catalog/?gender=male&category=test">
+                        <a class="hover:underline" href="/catalog/?type=clothes&category=shorts">
                             Шорти
                         </a>
                     </li>
                     <li class="mt-3 font-primary text-base text-light-grey">
-                        <a class="hover:underline" href="/catalog/?gender=male&category=test">
+                        <a class="hover:underline" href="/catalog/?type=clothes&category=jackets_and_vests">
                             Куртки та жилети
                         </a>
                     </li>
                     <li class="female-only mt-3 font-primary text-base text-light-grey">
-                        <a class="hover:underline" href="/catalog/?gender=male&category=test">
+                        <a class="hover:underline" href="/catalog/?type=clothes&category=leggings_and_braces">
                             Легінси та бра
                         </a>
                     </li>
                     <li class="mt-3 font-primary text-base text-light-grey">
-                        <a class="hover:underline" href="/catalog/?gender=male&category=test">
+                        <a class="hover:underline" href="/catalog/?type=clothes&category=socks">
                             Шкарпетки
                         </a>
                     </li>
                     <li class="mt-3 font-primary text-base text-light-grey">
-                        <a class="underline" href="/catalog/?gender=male&category=test">
+                        <a class="underline" href="/catalog/?type=clothes&category=all">
                             Весь одяг
                         </a>
                     </li>
@@ -100,27 +100,22 @@
             <div class="font-primary font-semibold text-base text-black">Взуття</div>
             <ul class="mt-3 border-t-1 border-solid border-lightest-grey">
                 <li class="mt-3 font-primary text-base text-light-grey">
-                    <a class="hover:underline" href="/catalog/?gender=male&category=test">
+                    <a class="hover:underline" href="/catalog/?type=shoes&category=originals">
                         Originals
                     </a>
                 </li>
                 <li class="mt-3 font-primary text-base text-light-grey">
-                    <a class="hover:underline" href="/catalog/?gender=male&category=test">
+                    <a class="hover:underline" href="/catalog/?type=shoes&category=sneakers">
                         Кросівки
                     </a>
                 </li>
                 <li class="mt-3 font-primary text-base text-light-grey">
-                    <a class="hover:underline" href="/catalog/?gender=male&category=test">
+                    <a class="hover:underline" href="/catalog/?type=shoes&category=sandals_and_flip_flops">
                         Сандалі та пантолети
                     </a>
                 </li>
                 <li class="mt-3 font-primary text-base text-light-grey">
-                    <a class="hover:underline" href="/catalog/?gender=male&category=test">
-                        Шкарпетки
-                    </a>
-                </li>
-                <li class="mt-3 font-primary text-base text-light-grey">
-                    <a class="underline" href="/catalog/?gender=male&category=test">
+                    <a class="underline" href="/catalog/?type=shoes&category=all">
                         Все взуття
                     </a>
                 </li>
@@ -130,27 +125,27 @@
             <div class="font-primary font-semibold text-base text-black">Аксесуари</div>
             <ul class="mt-3 border-t-1 border-solid border-lightest-grey">
                 <li class="mt-3 font-primary text-base text-light-grey">
-                    <a class="hover:underline" href="/catalog/?gender=male&category=test">
+                    <a class="hover:underline" href="/catalog/?type=accessories&category=caps">
                         Кепки
                     </a>
                 </li>
                 <li class="mt-3 font-primary text-base text-light-grey">
-                    <a class="hover:underline" href="/catalog/?gender=male&category=test">
+                    <a class="hover:underline" href="/catalog/?type=accessories&category=bags_and_backpacks">
                         Сумки з рюкзаками
                     </a>
                 </li>
                 <li class="mt-3 font-primary text-base text-light-grey">
-                    <a class="hover:underline" href="/catalog/?gender=male&category=test">
+                    <a class="hover:underline" href="/catalog/?type=accessories&category=hats">
                         Шапки
                     </a>
                 </li>
                 <li class="mt-3 font-primary text-base text-light-grey">
-                    <a class="hover:underline" href="/catalog/?gender=male&category=test">
+                    <a class="hover:underline" href="/catalog/?type=accessories&category=water_bottles">
                         Пляшки для води
                     </a>
                 </li>
                 <li class="mt-3 font-primary text-base text-light-grey">
-                    <a class="underline" href="/catalog/?gender=male&category=test">
+                    <a class="underline" href="/catalog/?type=accessories&category=all">
                         Всі аксесуари
                     </a>
                 </li>

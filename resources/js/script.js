@@ -1,4 +1,4 @@
-// Header gender buttons on logic
+// Header gender buttons logic --start
 document.querySelectorAll('.show-additional-header-content')
     .forEach((headerButton) => {
             headerButton.addEventListener('mouseenter', () => {
@@ -15,6 +15,16 @@ document.querySelectorAll('.show-additional-header-content')
                 }
 
                 document.querySelector('.additional-header-content').classList.remove('hidden');
+
+                document.querySelectorAll('a').forEach((el) => {
+                    const currentUrl = new URL(el.href);
+                    const urlCurrentGender = currentUrl.searchParams.get('gender');
+
+                    if (gender !== urlCurrentGender) {
+                        currentUrl.searchParams.set('gender', gender);
+                        el.href = currentUrl.toString();
+                    }
+                });
             });
 
             headerButton.addEventListener('mouseleave', () => {
@@ -33,3 +43,5 @@ document.querySelector('.additional-header-content')
 document.querySelector('.additional-header-content')
     .addEventListener('mouseleave', () =>
         document.querySelector('.additional-header-content').classList.add('hidden'));
+
+// Header gender buttons logic --end
