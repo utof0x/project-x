@@ -7,18 +7,20 @@
         <div class="">logo</div>
         <div class="absolute flex left-2/4 translate-x-[-50%]">
             <div
-                class="show-additional-header-content group relative flex items-center h-16 font-primary text-base cursor-pointer mr-6"
+                class="show-additional-header-content group relative flex items-center h-16 font-primary text-base cursor-pointer px-3"
                 data-gender="female"
             >
                 Жінки
-                <div class="absolute hidden w-full h-[2px] bg-blue group-hover:block bottom-[-1px]"></div>
+                <div
+                    class="absolute hidden w-[calc(100%-1.5rem)] h-[2px] bg-blue group-hover:block bottom-[-1px]"></div>
             </div>
             <div
-                class="show-additional-header-content group relative flex items-center h-16 font-primary text-base cursor-pointer"
+                class="show-additional-header-content group relative flex items-center h-16 font-primary text-base cursor-pointer px-3"
                 data-gender="male"
             >
                 Чоловіки
-                <div class="absolute hidden w-full h-[2px] bg-blue group-hover:block bottom-[-1px]"></div>
+                <div
+                    class="absolute hidden w-[calc(100%-1.5rem)] h-[2px] bg-blue group-hover:block bottom-[-1px]"></div>
             </div>
         </div>
         <div class="flex">
@@ -34,7 +36,8 @@
         </div>
     </div>
     <div
-        class="additional-header-content flex justify-between hidden self-center p-12 max-w-7xl w-full border-t-1 border-solid border-lightest-grey">
+        class="additional-header-content flex justify-between hidden
+        self-center p-12 max-w-7xl w-full border-t-1 border-solid border-lightest-grey">
         <div class="">
             <div class="font-primary font-semibold text-base text-black">Одяг</div>
             <div class="flex mt-3 border-t-1 border-solid border-lightest-grey">
