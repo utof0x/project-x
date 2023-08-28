@@ -25,3 +25,11 @@ document.querySelectorAll('.show-additional-header-content')
             })
         }
     );
+
+document.querySelector('.additional-header-content')
+    .addEventListener('mouseenter', () =>
+        document.querySelector('.additional-header-content').classList.remove('hidden'));
+
+document.querySelector('.additional-header-content')
+    .addEventListener('mouseleave', () =>
+        document.querySelector('.additional-header-content').classList.add('hidden'));

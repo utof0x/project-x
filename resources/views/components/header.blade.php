@@ -35,10 +35,9 @@
             </div>
         </div>
     </div>
-    <div
-        class="additional-header-content flex justify-between hidden
+    <div class="additional-header-content flex justify-between hidden
         self-center p-12 max-w-7xl w-full border-t-1 border-solid border-lightest-grey">
-        <div class="">
+        <div>
             <div class="font-primary font-semibold text-base text-black">Одяг</div>
             <div class="flex mt-3 border-t-1 border-solid border-lightest-grey">
                 <ul class="max-w-[9.5rem] lg:max-w-[14rem] xl:max-w-[17.375rem] w-screen mr-6">
