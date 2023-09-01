@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CatalogController;
+use App\Livewire\Catalog;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,4 +16,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'app.home');
-Route::get('/catalog', [CatalogController::class, 'show']);
+Route::get('/catalog', Catalog::class);

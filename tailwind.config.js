@@ -19,6 +19,9 @@ module.exports = {
                 'lightest-grey': '#f0f0f0',
                 'light-grey': '#8c8c8c',
                 'blue': '#1677ff',
+                'black06': 'rgba(0, 0, 0, 0.06)',
+                'black15': '#d9d9d9',
+                'black88': '#1f1f1f',
             },
             screens: {
                 'tablet': '680px'
