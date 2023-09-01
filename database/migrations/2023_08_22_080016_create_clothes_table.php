@@ -15,6 +15,7 @@ return new class extends Migration {
             $table->string('article');
             $table->string('name');
             $table->integer('category_id');
+            $table->integer('gender_id');
             $table->integer('type_id');
             $table->string('clothes_size_id')->nullable();
             $table->string('shoes_size_id')->nullable();

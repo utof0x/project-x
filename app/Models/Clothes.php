@@ -20,6 +20,11 @@ class Clothes extends Model
         return $this->hasOne(Type::class);
     }
 
+    public function gender(): HasOne
+    {
+        return $this->hasOne(Gender::class);
+    }
+
     public function clothesSize(): HasOne
     {
         return $this->hasOne(ClothesSize::class);
