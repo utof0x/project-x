@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
             CategoriesSeeder::class,
             ClothesSizeSeeder::class,
             ShoesSizeSeeder::class,
+            ClothesSeeder::class,
         ]);
     }
 }
