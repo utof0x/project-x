@@ -6,7 +6,7 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class ClothesSeeder extends Seeder
+class ProductsSeeder extends Seeder
 {
     use WithoutModelEvents;
 
@@ -15,10 +15,10 @@ class ClothesSeeder extends Seeder
      */
     public function run(): void
     {
-        if (DB::table('clothes')->count() === 0) {
-            DB::update("ALTER TABLE clothes AUTO_INCREMENT=0;");
+        if (DB::table('products')->count() === 0) {
+            DB::update("ALTER TABLE products AUTO_INCREMENT=0;");
 
-            DB::table('clothes')->insert([
+            DB::table('products')->insert([
                 [
                     'article' => 'TEST_GK1111',
                     'name' => 'Спортивний костюм XS жіночий за 1000 гривень',
@@ -99,9 +99,9 @@ class ClothesSeeder extends Seeder
                 ],
             ]);
         } else {
-            error_log("\033[37;1;41m                                     \033[0m");
-            error_log("\033[37;1;41m  Error: Clothes table is not empty  \033[0m");
-            error_log("\033[37;1;41m                                     \033[0m");
+            error_log("\033[37;1;41m                                      \033[0m");
+            error_log("\033[37;1;41m  Error: Products table is not empty  \033[0m");
+            error_log("\033[37;1;41m                                      \033[0m");
         }
     }
 }

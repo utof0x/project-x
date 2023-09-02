@@ -2,7 +2,6 @@
 
 namespace App\Livewire;
 
-use App\Models\Clothes;
 use Illuminate\Support\Facades\Request;
 use Livewire\Component;
 use Livewire\Attributes\Url;
@@ -25,12 +24,12 @@ class Catalog extends Component
 
     private function filterProducts(): void
     {
-        $this->products = DB::table('clothes')
-            ->join('types', 'clothes.type_id', '=', 'types.id')
+        $this->products = DB::table('products')
+            ->join('types', 'products.type_id', '=', 'types.id')
             ->when($this->type, function ($query) {
                 $query->whereIn('types.name', $this->type);
             })
-            ->select('clothes.*')
+            ->select('products.*')
             ->get();
     }
 

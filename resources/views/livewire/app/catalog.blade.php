@@ -73,7 +73,7 @@
             @foreach($products as $product)
                 <div>
                     <img class="w-[20.5rem] h-[20.5rem] tablet:w-[17.375rem] tablet:h-[17.375rem] border-md"
-                         src="{{ isset($product->preview_image) ?  url('storage/images/' . $product->preview_image) : url('assets/images/clothes-image-not-found.png') }}"
+                         src="{{ isset($product->preview_image) ?  url('storage/images/' . $product->preview_image) : url('assets/images/product-not-found.png') }}"
                          alt="{{ $product->name }}"
                     />
                     <div class="mt-4 font-primary font-semibold text-sm">
