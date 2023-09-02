@@ -1,4 +1,4 @@
-<header class="flex flex-col">
+<header class="relative flex flex-col">
     <div
         class="flex items-center justify-center h-[1.75rem] tablet:h-[2.375rem] bg-blue font-primary font-medium text-sm tablet:text-base text-white">
         Безкоштовна доставка замовлень від ₴2500
@@ -35,7 +35,7 @@
             </div>
         </div>
     </div>
-    <div class="additional-header-content flex justify-between hidden
+    <div class="additional-header-content absolute flex justify-between hidden top-[6.375rem] bg-white shadow-custom
         self-center p-12 max-w-7xl w-full border-t-1 border-solid border-lightest-grey">
         <div>
             <div class="font-primary font-semibold text-base text-black">Одяг</div>
