@@ -47,7 +47,7 @@
                         </a>
                     </li>
                     <li class="mt-3 font-primary text-base text-light-grey">
-                        <a class="hover:underline" href="/catalog/?category=tracksuits&clothes=clothes">
+                        <a class="hover:underline" href="/catalog/?type=clothes&category=tracksuits">
                             Спортивні костюми
                         </a>
                     </li>
