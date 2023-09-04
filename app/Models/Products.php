@@ -12,17 +12,17 @@ class Products extends Model
 
     public function category(): HasOne
     {
-        return $this->hasOne(Category::class);
+        return $this->hasOne(Category::class, 'id', 'category_id');
     }
 
     public function type(): HasOne
     {
-        return $this->hasOne(Type::class);
+        return $this->hasOne(Type::class, 'id', 'type_id');
     }
 
     public function gender(): HasOne
     {
-        return $this->hasOne(Gender::class);
+        return $this->hasOne(Gender::class, 'id', 'gender_id');
     }
 
     public function clothesSize(): HasOne
