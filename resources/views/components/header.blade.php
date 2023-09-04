@@ -3,7 +3,7 @@
         class="flex items-center justify-center h-[1.75rem] tablet:h-[2.375rem] bg-blue font-primary font-medium text-sm tablet:text-base text-white">
         Безкоштовна доставка замовлень від ₴2500
     </div>
-    <div class="relative hidden tablet:flex justify-between items-center self-center py-4 px-12 max-w-7xl w-full">
+    <div class="relative hidden tablet:flex justify-between items-center self-center py-4 px-12 max-w-7xl w-full z-10">
         <div class="">logo</div>
         <div class="absolute flex left-2/4 translate-x-[-50%]">
             <div
